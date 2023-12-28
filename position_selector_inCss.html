@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>poiition properties</title>
+    <style>
+       
+        div{
+            border:1px solid black;
+           
+           
+        }
+        img{
+            margin:10px;
+        }
+        .img2{
+         /* relative property  --this property scales/adjust the position of the elements position with respect to window screen */
+         /* previous gapof the img is maintained  */
+         position: relative;
+         position:absolute;
+         position:sticky;
+         top:10px;
+         left:10px;
+        }
+        .img3{
+            position:fixed;
+        }
+        .container{
+            /* relative for absoluute */
+            position: relative;
+            height:800px;
+
+        }
+       
+        
+        
+
+
+    </style>
+</head>
+<body>
+    <!-- position property-
+    values--static,relative,fixed,sticky,auto
+
+    this property is used to position elements/tags in the webpage ,its default value is static 
+    mdn -illustration of property through animation
+    
+short hand-div.class
+img tag inline-block element 
+
+we can not apply the zee index and top,bottom,right ,left values in the static property
+
+-->
+<div class="container">
+<img src="1000007871.jpg" alt="1" height="120px" class="img1">
+<img src="1000031781.jpg" alt="2" height="120px" class="img2">
+<img src="Screenshot 2023-09-23 012642.png" height="120px;" alt=""
+class="img3">
+</div>
+<div calss="classofdiv"></div>
+</body>
+</html>
